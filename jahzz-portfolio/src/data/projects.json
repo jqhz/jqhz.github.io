@@ -1,42 +1,52 @@
 [
   {
     "id": "1",
-    "title": "E-Commerce Platform",
+    "title": "Jupiter",
     "description": "A full-stack e-commerce solution with real-time inventory management",
     "longDescription": "Built a comprehensive e-commerce platform featuring user authentication, product management, shopping cart functionality, and secure payment processing. Implemented real-time inventory tracking and order management system.",
-    "image": "/placeholder.svg?height=400&width=600",
+    "image": "/Jupiter.png?height=400&width=600",
     "technologies": ["React", "Node.js", "MongoDB", "Stripe", "Redux"],
     "liveUrl": "https://example.com",
     "githubUrl": "https://github.com/jahzz/ecommerce"
   },
   {
     "id": "2",
-    "title": "Task Management App",
+    "title": "CallTime",
     "description": "Collaborative task management tool with real-time updates",
     "longDescription": "Developed a collaborative task management application with drag-and-drop functionality, real-time synchronization using WebSockets, team collaboration features, and advanced filtering options.",
-    "image": "/placeholder.svg?height=400&width=600",
+    "image": "/CallTime.png?height=400&width=600",
     "technologies": ["React", "TypeScript", "Firebase", "Tailwind CSS"],
     "liveUrl": "https://example.com",
     "githubUrl": "https://github.com/jahzz/taskmanager"
   },
   {
     "id": "3",
-    "title": "Weather Dashboard",
+    "title": "Lunarly",
     "description": "Real-time weather tracking with interactive maps and forecasts",
     "longDescription": "Created a weather dashboard that displays current conditions, 7-day forecasts, and interactive weather maps. Integrated multiple weather APIs for accurate data and implemented location-based services.",
-    "image": "/placeholder.svg?height=400&width=600",
+    "image": "/Lunarly.png?height=400&width=600",
     "technologies": ["React", "OpenWeather API", "Chart.js", "Leaflet"],
     "liveUrl": "https://example.com",
     "githubUrl": "https://github.com/jahzz/weather"
   },
   {
     "id": "4",
-    "title": "Portfolio CMS",
+    "title": "LyricaL",
     "description": "Content management system for creative professionals",
     "longDescription": "Built a headless CMS specifically designed for portfolio websites. Features include drag-and-drop page builder, media management, SEO optimization tools, and customizable templates.",
     "image": "/placeholder.svg?height=400&width=600",
     "technologies": ["Next.js", "Prisma", "PostgreSQL", "AWS S3"],
     "liveUrl": "https://example.com",
     "githubUrl": "https://github.com/jahzz/portfolio-cms"
+  },
+  {
+    "id": "5",
+    "title": "Tutoring",
+    "description": "College Algebra Tutoring Videos",
+    "longDescription": "A collection of comprehensive college algebra tutoring videos covering fundamental concepts, problem-solving techniques, and exam preparation strategies.",
+    "image": "/CollegeAlgebra.jpg?height=400&width=600",
+    "technologies": ["Video Production", "Educational Content"],
+    "liveUrl": "https://drive.google.com/drive/u/2/folders/1BQXQdTLZX32LSuROZo0sKW2Q86MXsNCb",
+    "githubUrl": ""
   }
 ]
