@@ -25,7 +25,7 @@ export default function Projects() {
       <div className="max-w-7xl mx-auto">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
           <h1 className="text-4xl sm:text-5xl font-bold text-foreground mb-4">Projects</h1>
-          <p className="text-lg text-muted mb-12">A collection of my recent work and side projects</p>
+          <p className="text-lg text-muted mb-12">My recent work and side projects</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

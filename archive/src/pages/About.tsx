@@ -10,14 +10,8 @@ export default function About() {
     "Next.js",
     "Tailwind CSS",
     "PostgreSQL",
-    "MongoDB",
-    "AWS",
-    "Docker",
     "Git",
     "REST APIs",
-    "GraphQL",
-    "Jest",
-    "Cypress",
     "Framer Motion",
   ]
 

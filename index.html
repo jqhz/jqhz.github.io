@@ -1,16 +1,127 @@
-<!doctype html>
-<html lang="en" class="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jahzz — Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Jahzz's Homepage</title>
+</head>
+
+<body>
+    <audio id="clicksound" src="./static/MinecraftClicksound.mp3"></audio>
+    <script type="module">
+        import { get_skin, PoseType } from './js/lunar.js';
+
+        const imgSrc = get_skin('jqhz')(PoseType.MOJANG_AVATAR);
+        document.querySelector('img').src = imgSrc;
+
+        const clickSound = document.getElementById('clicksound');
+        function PlayClick() {
+            clickSound.load();
+            clickSound.play();
+        }
+
+        document.body.addEventListener('click', PlayClick);
+    </script>
+    <nav>
+        <div>
+            <h1>
+                Jahzz's Homepage
+            </h1>
+        </div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+        </div>
+    </nav>
+    <p>
+        Hi! I'm Jahzz. I am currently a software engineering undergrad at the University of Texas at Dallas.
+        <br>
+        I wanted to try making this site for funsies after seeing a few friends doing the same.
+    </p>
+
+    <p> 
+        I love collecting stickers for my laptop, and my guilty pleasure is watching The Primagen and Fireship.
+    </p>
+    <hr>
+    <a href="https://linktr.ee/jqhz">My Linktree</a>
+    <!-- <h2>a</h2> -->
+    <!-- <main>
+        <h2>Hobbies</h2>
+    </main> -->
+    <h2>### Works</h2>
+    <ul>
+        <li>UTD Clubs</li>
+        <li>Lunarly</li>
+        <li>LyricaL</li>
+        <li>Personal Tutoring</li>
+    </ul>
+
+    <h2>### Programming Languages</h2>
+    <ul>
+        <li><strong>Proficient:</strong>
+            <ul>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>HTML/CSS</li>
+            </ul>
+        </li>
+        <li><strong>Familiar:</strong>
+            <ul>
+                <li>C++</li>
+                <li>Java</li>
+                <li>SQL</li>
+                <li>R</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>### Hobbies</h2>
+    <div class="hobbies">
+        <p>
+            <strong>Minecraft</strong> - <a href="https://www.youtube.com/@jqhz">YouTube Channel</a>
+            <br>10:28 RSG, 8:24 MCSR Ranked
+        </p>
+        <img class="shake" alt="Minecraft Skin">
+
+        <p>
+            <strong>Anime</strong> - <a href="https://anilist.co/user/jahzz/">AniList Profile</a>
+            <br>CSM, Dandadan, Made in Abyss
+        </p>
+    </div>
+    <h2>### Linux</h2>
+    <p>Fedora 41 with niri WM and Noctalia shell theme. Would love to rice more, but I'm still using VSCode because I love my arrow keys &lt;3 
+    </p>
+
+    <h2>### Music [<a href="https://open.spotify.com/user/jason_cube">spotify link</a>]</h2>
+    <ul>
+        <li>Panchiko</li>
+        <li>New Jeans</li>
+        <li>Arctic Monkeys</li>
+        <li>The Smiths</li>
+        <li>Frederic Chopin</li>
+        <li>S3RL</li>
+        <li>Lamp</li>
+        <li>2Hollis</li>
+        <li>The Hellp</li>    
+    </ul> 
+    <!--New Jeans, Arctic Monkeys, The Smiths, Frederic Chopin, S3RL, Lamp, 2Hollis, The Hellp etc -->
+    <!-- <h2>### Blinkies</h2> -->
+    <div class="blinkies">
+        <img src="./static/blink1.gif" alt="Blinkie 1">
+        <img src="./static/blink2.gif" alt="Blinkie 2">
+        <img src="./static/blink3.gif" alt="Blinkie 3">
+        <img src="./static/blink4.gif" alt="Blinkie 4">
+        <img src="./static/blink5.gif" alt="Blinkie 5">  
+        <img src="./static/blink6.gif" alt="Blinkie 6">
+        <img src="./static/blink7.gif" alt="Blinkie 7">
+        <img src="./static/blink8.gif" alt="Blinkie 8">
+        <img src="./static/blink9.gif" alt="Blinkie 9">
+    </div>
+    
+    <footer>
+        <hr>
+        <p>&copy; 2026 Jahzz. <a href="https://github.com/jqhz">Source Code</a></p>
+    </footer>
+</body>
 </html>

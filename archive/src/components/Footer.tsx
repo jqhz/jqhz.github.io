@@ -38,21 +38,21 @@ export default function Footer() {
                   Home
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/about" className="text-muted hover:text-accent transition-colors text-sm">
                   About
                 </a>
-              </li>
-              <li>
+              </li>*/}
+              <li> 
                 <a href="/projects" className="text-muted hover:text-accent transition-colors text-sm">
                   Projects
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/contact" className="text-muted hover:text-accent transition-colors text-sm">
                   Contact
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 

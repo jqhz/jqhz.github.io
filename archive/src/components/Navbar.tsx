@@ -10,9 +10,9 @@ export default function Navbar() {
 
   const links = [
     { path: "/", label: "Home" },
-    { path: "/about", label: "About" },
+    // { path: "/about", label: "About" },
     { path: "/projects", label: "Projects" },
-    { path: "/contact", label: "Contact" },
+    // { path: "/contact", label: "Contact" },
   ]
 
   const isActive = (path: string) => location.pathname === path
@@ -21,9 +21,9 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="text-xl font-bold text-accent hover:text-accent-hover transition-colors">
+          {/* <Link to="/" className="text-xl font-bold text-accent hover:text-accent-hover transition-colors">
             Jahzz
-          </Link>
+          </Link> */}
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">

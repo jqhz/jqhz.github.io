@@ -12,12 +12,12 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-foreground mb-6">
-              Hi, I'm <span className="text-accent">Jahzz</span>
+              <span className="text-accent">Jahzz</span>
             </h1>
             <p className="text-xl sm:text-2xl text-muted mb-8 leading-relaxed">
-              Full Stack Developer crafting exceptional digital experiences with modern web technologies
+              Senior Software Engineering Student with Background in Internetworking
             </p>
-            <div className="flex flex-wrap gap-4 justify-center">
+            {/* <div className="flex flex-wrap gap-4 justify-center">
               <Link
                 to="/projects"
                 className="px-8 py-3 bg-accent text-background font-medium rounded-lg hover:bg-accent-hover transition-colors"
@@ -30,7 +30,7 @@ export default function Home() {
               >
                 Get In Touch
               </Link>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </section>
@@ -45,7 +45,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">Work Experience</h2>
-            <p className="text-muted mb-12">My professional journey in software development</p>
+            {/* <p className="text-muted mb-12"></p> */}
           </motion.div>
           <ExperienceMotion />
         </div>
