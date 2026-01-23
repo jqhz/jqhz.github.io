@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: inherit;
     cursor: url('/static/MinecraftCursor.png') 16 16, auto;
+}
 
+html {
+    font-size: 14px;
 }
 @font-face {
     font-family: 'Minecraftia';
@@ -33,6 +36,13 @@ img {
 .nav-links {
     line-height: 2rem;
 }
+/* .nav-links > #home::after {
+    content: "|";
+    color: #eeeeee;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+} */
 
 ul {
     margin-left: 2rem;
@@ -110,8 +120,11 @@ h2 {
     width: auto;
     display: block;
 }
-
-footer p{
-    /* text-align: center; */
-    /* margin: 2rem 0 1rem 0; */
+a {
+    color: #0392da;
+    text-decoration: underline;
+}
+a:active, a:hover {
+    background-color: var(#0392da);
+    color: #ffffff;
 }
