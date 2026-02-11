@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Jahzz's Homepage</title>
+</head>
+<body>
+    <audio id="clicksound" src="./static/MinecraftClicksound.mp3"></audio>
+    <script type="module">
+        import { get_skin, PoseType } from './js/lunar.js';
+
+        const imgSrc = get_skin('jqhz')(PoseType.MOJANG_AVATAR);
+        document.querySelector('img').src = imgSrc;
+
+        const clickSound = document.getElementById('clicksound');
+        function PlayClick() {
+            clickSound.load();
+            clickSound.play();
+        }
+
+        document.body.addEventListener('click', PlayClick);
+    </script>
+    <nav>
+        <div>
+            <h1>
+                Jahzz's Homepage
+            </h1>
+        </div>
+        <div class="nav-links">
+            <a id="home" href="index.html">Home</a>
+            <a href="projects.html">Projects</a> 
+            <a href="about.html">About</a>
+            <!-- <a target="_blank" href="https://linktr.ee/jqhz">Linktree</a> -->
+
+        </div>
+    </nav>
+    <p>
+        Hi! I'm Jahzz. I am currently a software engineering undergrad at the University of Texas at Dallas.
+        <br>
+        <br>
+        I wanted to try making this site for funsies after seeing a few friends doing the same.
+    </p>
+    <br>
+    <p> 
+        I love collecting stickers for my laptop, and I find joy in being able to teach others what I know. Whether its tutoring college algebra students to understand the fundamental concepts or helping new Minecraft speedrunners learn the basics and tech to beat the game fast, I find it the most rewarding seeing the direct growth of others through my teachings.
+    </p>
+    <br> 
+    <!--<a href="https://linktr.ee/jqhz">My Linktree</a> -->
+
+    <hr>
+    <h2>### Works - [<a target="_blank" href="https://github.com/jqhz">GitHub</a>]</h2>
+    <ul>
+        <li><a target="_blank" href="https://clubs.utdnebula.com/">UTD Clubs</a> [<a target="_blank" href="https://github.com/UTDNebula/utd-clubs">source</a>]
+            Contributed on a Nebula Labs project that helps students find on-campus clubs and events.</li>
+        <li><a target="_blank" href="https://mcsrhub.vercel.app">MCSR Hub</a> [<a target="_blank" href="https://github.com/jqhz/MCSRHub">source</a>]
+            Minecraft Speedrunning resource site that houses any tutorials, documents, and Discords relating to beating Minecraft fast for runners to find exactly what they are looking for.</li>
+        <li><a target="_blank" href="https://lunarly.vercel.app">Lunarly</a> [<a target="_blank" href="https://github.com/jqhz/Lunarly">source</a>]
+            Made for users to create dream journal entries, manage dreams, and gain personalized insights.</li>
+        <li><a target="_blank" href="https://github.com/jqhz/LyricaL">LyricaL</a> [<a target="_blank" href="https://github.com/jqhz/LyricaL">source</a>]
+            Java Swing application to display the lyrics of the user's currently playing song.</li>
+        <li><a target="_blank" href="https://drive.google.com/drive/folders/1BQXQdTLZX32LSuROZo0sKW2Q86MXsNCb">Personal Tutoring</a>
+            Recorded tutoring videos for college algebra students to prepare for finals.</li>
+    </ul>
+
+    <h2>### Programming Languages</h2>
+    <ul>
+        <li><strong>Proficient:</strong>
+            <ul>
+                <li>React.js</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>HTML/CSS</li>
+            </ul>
+        </li>
+        <li><strong>Familiar:</strong>
+            <ul>
+                <li>C++</li>
+                <li>Java</li>
+                <li>MySQL</li>
+                <li>R</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>### Hobbies</h2>
+    <div class="hobbies">
+        <p>
+            <strong>Minecraft</strong> - [<a target="_blank" href="https://www.youtube.com/@jqhz">YouTube Channel</a>]
+            <br><a target="_blank" href="https://www.youtube.com/watch?v=kQ3wIoDW6Ns">10:28</a> RSG, <a target="_blank" target="_blank" href="https://www.youtube.com/watch?v=nGcv85RiPvM">8:24</a> MCSR Ranked
+        </p>
+        <img class="shake" alt="Minecraft Skin">
+        <p>
+            <strong>Anime</strong> - [<a target="_blank" href="https://anilist.co/user/jahzz/">AniList Profile</a>]
+            <br>CSM, Dandadan, Made in Abyss
+        </p>
+    </div>
+    <h2>### Linux</h2>
+    <p>Fedora 41 with Niri WM and Noctalia shell theme. Would love to rice more, but I'm still using VSCode because I love my arrow keys &lt;3 
+    </p>
+
+    <h2>### Music [<a target="_blank" href="https://open.spotify.com/user/jason_cube">spotify link</a>]</h2>
+    <details>
+        <summary>K-pop</summary>
+        <ul>
+            <li>New Jeans</li>
+            <li>BTS</li>
+        </ul>
+    </details>
+    <details>
+        <summary>Rock/Indie</summary>
+        <ul>
+            <li>Arctic Monkeys</li>
+            <li>The Smiths</li>
+        </ul>
+    </details>
+    <details>
+        <summary>Classical</summary>    
+        <ul>
+            <li>Frederic Chopin</li>
+        </ul>
+    </details>
+    <details>
+        <summary>Electronic</summary>
+        <ul>
+            <li>S3RL</li>
+        </ul>
+    </details>
+    <details>
+        <summary>J-pop</summary>
+        <ul>
+            <li>Lamp</li>  
+        </ul>
+    </details>
+    <details>
+        <summary>Electro Clash</summary>
+        <ul>
+            <li>2Hollis</li>
+            <li>The Hellp</li>
+        </ul>
+    </details>
+    <!-- <ul>
+        <li>Panchiko</li>
+        <li>New Jeans</li>
+        <li>Arctic Monkeys</li>
+        <li>The Smiths</li>
+        <li>Frederic Chopin</li>
+        <li>S3RL</li>
+        <li>Lamp</li>
+        <li>2Hollis</li>
+        <li>The Hellp</li>    
+    </ul>  -->
+    <!--New Jeans, Arctic Monkeys, The Smiths, Frederic Chopin, S3RL, Lamp, 2Hollis, The Hellp etc -->
+    <!-- <h2>### Blinkies</h2> -->
+    <div class="blinkies">
+        <img src="./static/blink1.gif" alt="Blinkie 1">
+        <img src="./static/blink2.gif" alt="Blinkie 2">
+        <img src="./static/blink3.gif" alt="Blinkie 3">
+        <img src="./static/blink4.gif" alt="Blinkie 4">
+        <img src="./static/blink5.gif" alt="Blinkie 5">  
+        <img src="./static/blink6.gif" alt="Blinkie 6">
+        <img src="./static/blink7.gif" alt="Blinkie 7">
+        <img src="./static/blink8.gif" alt="Blinkie 8">
+        <img src="./static/blink9.gif" alt="Blinkie 9">
+    </div>
+    
+    <footer>
+        <hr>
+        <p>&copy; 2026 Jahzz. <a target="_blank" href="https://github.com/jqhz">Source Code</a> <a target="_blank" href="https://linktr.ee/jqhz">Linktree</a></p>
+    </footer>
+</body>
+</html>
